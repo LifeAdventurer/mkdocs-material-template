@@ -1,0 +1,85 @@
+# Project information
+site_name: MkDocs Material Template 
+site_url: https://lifeadventurer.github.io/mkdocs-material-template 
+site_author: Life Adventurer
+site_description: MkDocs Material template
+
+# Repository
+repo_name: LifeAdventurer/mkdocs-material-template
+repo_url: https://github.com/LifeAdventurer/mkdocs-material-template 
+
+# Copyright
+copyright: Copyright &copy; 2024 Life Adventurer 
+
+# Configuration
+theme:
+  name: material
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material//weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      primary: indigo
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  features:
+    - content.code.copy
+    - navigation.expand
+    - navigation.footer
+    - navigation.sections
+    - navigation.tabs
+    - search.suggest
+    - search.highlight
+    - search.share
+    - toc.follow
+
+# Plugins
+plugins:
+  - blog
+  - search
+
+# Additional configuration
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/LifeAdventurer
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - tables
+
+# Page tree
+nav:
+  - Home: index.md
+  - Blog:
+    - blog/index.md
