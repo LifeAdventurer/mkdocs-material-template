@@ -68,6 +68,17 @@ Before you being, make sure you have the following installed:
     ```
     This command will deploy your site to the `gh-pages` branch of your repository and make it available on GitHub Pages.
 
+## Configuration
+
+Configure your documentation by editing the `mkdocs.yml` file. This file contains various settings such as theme, extension, and navigation structure. For more information, refer to the [Material for MkDocs Documentation](https://squidfunk.github.io/mkdocs-material/)
+
+## Acknowledgements
+
+This template is built using the following open-source projects:
+
+- [MkDocs](https://github.com/mkdocs/mkdocs/): A fast, simple and downright gorgeous static site generator that's geared towards building project documentation.
+- [Material for MkDocs](https://github.com/squidfunk/mkdocs-material): A Material Design theme for MkDocs, created by Martin Donath (Squidfunk).
+
 ## LICENSE
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
