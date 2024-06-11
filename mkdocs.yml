@@ -84,5 +84,6 @@ nav:
   - Getting started:
     - Installation: getting-started.md
     - License: license.md
+    - Changelog: changelog.md
   - Blog:
     - blog/index.md
