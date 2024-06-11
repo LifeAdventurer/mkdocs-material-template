@@ -31,6 +31,7 @@ theme:
     - content.code.copy
     - navigation.expand
     - navigation.footer
+    - navigation.indexes
     - navigation.sections
     - navigation.tabs
     - search.highlight
