@@ -81,5 +81,6 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
+  - Getting started: getting-started.md
   - Blog:
     - blog/index.md
