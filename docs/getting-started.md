@@ -2,6 +2,7 @@
 
 ## Installation
 
+<!-- Examples -->
 ### with [Method 1] <small>recommended</small>
 
 ```shell
