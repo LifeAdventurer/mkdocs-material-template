@@ -1,0 +1,6 @@
+# Markdown
+*.md linguist-detectable=true
+*.md linguist-documentation=false
+
+# automatically strip trailing whitespace
+* whitespace=trailing-space
