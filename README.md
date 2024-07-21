@@ -9,7 +9,7 @@ You can create your repository by clicking the `Use this template` button on the
 
 ## Prerequisites
 
-Before you being, make sure you have the following installed:
+Before you begin, make sure you have the following installed:
 - Python (version 3.8 or higher)
 - Poetry (recommended)
 - or pip
