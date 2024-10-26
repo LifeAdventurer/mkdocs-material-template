@@ -1,15 +1,15 @@
 # Project information
-site_name: MkDocs Material Template 
-site_url: https://lifeadventurer.github.io/mkdocs-material-template 
+site_name: MkDocs Material Template
+site_url: https://lifeadventurer.github.io/mkdocs-material-template
 site_author: Life Adventurer
 site_description: MkDocs Material template
 
 # Repository
 repo_name: LifeAdventurer/mkdocs-material-template
-repo_url: https://github.com/LifeAdventurer/mkdocs-material-template 
+repo_url: https://github.com/LifeAdventurer/mkdocs-material-template
 
 # Copyright
-copyright: Copyright &copy; 2024 Life Adventurer 
+copyright: Copyright &copy; 2024 Life Adventurer
 
 # Configuration
 theme:
