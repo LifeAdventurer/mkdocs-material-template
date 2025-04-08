@@ -29,7 +29,7 @@ Before you begin, make sure you have the following installed:
     ```
 3. Activate the virtual environment:
     ```shell
-    poetry shell
+    poetry env activate
     ```
 
 ### Using pip
