@@ -1,19 +1,11 @@
-[tool.poetry]
+[project]
 name = "mkdocs-material-template"
 version = "0.1.0"
-description = ""
-authors = ["lifeadventurer <life0adventurer@gmail.com>"]
+description = "A Material for MkDocs Documentation Template "
 readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.11"
+dependencies = ["mkdocs-glightbox>=0.4.0", "mkdocs-material>=9.6.16"]
 
-[tool.poetry.dependencies]
-python = "^3.11"
-mkdocs-material = "^9.5.26"
-mkdocs-glightbox = "^0.4.0"
-
-
-[tool.poetry.group.dev.dependencies]
-pre-commit = "^3.8.0"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+[dependency-groups]
+dev = ["pre-commit>=4.2.0"]
