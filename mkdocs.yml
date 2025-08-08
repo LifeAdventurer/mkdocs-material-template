@@ -9,7 +9,7 @@ repo_name: LifeAdventurer/mkdocs-material-template
 repo_url: https://github.com/LifeAdventurer/mkdocs-material-template
 
 # Copyright
-copyright: Copyright &copy; 2024 Life Adventurer
+copyright: Copyright &copy; 2025 Life Adventurer
 
 # Configuration
 theme:
@@ -107,16 +107,16 @@ extra_css:
 nav:
   - Home: index.md
   - Getting started:
-    - Installation: getting-started.md
-    - License: license.md
-    - Changelog: changelog.md
+      - Installation: getting-started.md
+      - License: license.md
+      - Changelog: changelog.md
   - Reference:
-    - reference/index.md
-    # Example
-    - Reference 1: reference/reference-1.md
-    - Reference 2: reference/reference-2.md
-    - Reference 3: reference/reference-3.md
+      - reference/index.md
+      # Example
+      - Reference 1: reference/reference-1.md
+      - Reference 2: reference/reference-2.md
+      - Reference 3: reference/reference-3.md
   - Community:
-    - Contributing: contributing.md
+      - Contributing: contributing.md
   - Blog:
-    - blog/index.md
+      - blog/index.md
