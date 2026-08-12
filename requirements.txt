@@ -2,24 +2,24 @@
 #    uv export --no-hashes --output-file=requirements.txt
 babel==2.18.0
     # via mkdocs-material
-backrefs==7.0
+backrefs==8.0
     # via mkdocs-material
-certifi==2026.5.20
+certifi==2026.7.22
     # via requests
 cfgv==3.5.0
     # via pre-commit
-charset-normalizer==3.4.7
+charset-normalizer==3.4.9
     # via requests
-click==8.4.0
+click==8.4.2
     # via mkdocs
 colorama==0.4.6
     # via
     #   click
     #   mkdocs
     #   mkdocs-material
-distlib==0.4.0
+distlib==0.4.3
     # via virtualenv
-filelock==3.29.0
+filelock==3.32.2
     # via
     #   python-discovery
     #   virtualenv
@@ -27,13 +27,13 @@ ghp-import==2.1.0
     # via mkdocs
 identify==2.6.19
     # via pre-commit
-idna==3.15
+idna==3.18
     # via requests
 jinja2==3.1.6
     # via
     #   mkdocs
     #   mkdocs-material
-markdown==3.10.2
+markdown==3.10.3
     # via
     #   mkdocs
     #   mkdocs-material
@@ -52,31 +52,30 @@ mkdocs-get-deps==0.2.2
     # via mkdocs
 mkdocs-glightbox==0.5.2
     # via mkdocs-material-template
-mkdocs-material==9.7.6
+mkdocs-material==9.7.7
     # via mkdocs-material-template
 mkdocs-material-extensions==1.3.1
     # via mkdocs-material
 nodeenv==1.10.0
     # via pre-commit
-packaging==26.2
+packaging==26.3
     # via mkdocs
 paginate==0.5.7
     # via mkdocs-material
 pathspec==1.1.1
     # via mkdocs
-platformdirs==4.9.6
+platformdirs==4.11.2
     # via
     #   mkdocs-get-deps
-    #   python-discovery
     #   virtualenv
-pre-commit==4.6.0
+pre-commit==4.6.2
 pygments==2.20.0
     # via mkdocs-material
-pymdown-extensions==10.21.3
+pymdown-extensions==11.0.1
     # via mkdocs-material
 python-dateutil==2.9.0.post0
     # via ghp-import
-python-discovery==1.3.1
+python-discovery==1.5.1
     # via virtualenv
 pyyaml==6.0.3
     # via
@@ -89,13 +88,13 @@ pyyaml-env-tag==1.1
     # via mkdocs
 requests==2.34.2
     # via mkdocs-material
-selectolax==0.4.9
+selectolax==0.4.11
     # via mkdocs-glightbox
 six==1.17.0
     # via python-dateutil
 urllib3==2.7.0
     # via requests
-virtualenv==21.3.3
+virtualenv==21.7.4
     # via pre-commit
 watchdog==6.0.0
     # via mkdocs
